@@ -1,0 +1,39 @@
+{
+  "skill": "awwwards-web-architect",
+  "should_trigger": [
+    "Створи мені преміум лендінг для SaaS продукту",
+    "Зроби сайт рівня Awwwards для моєї студії",
+    "Потрібен портфоліо сайт з крутими анімаціями",
+    "Build a high-end website for a design agency",
+    "Зроби корпоративний сайт з 3D елементами",
+    "Створи лендінг як у Wonder Makers",
+    "Потрібен сайт з преміум дизайном та smooth scroll",
+    "Make a portfolio site with scroll animations",
+    "Зроби красивий сайт для клінінгової компанії",
+    "Створи landing page з dark mode та WebGL"
+  ],
+  "should_not_trigger": [
+    "Напиши API endpoint для авторизації",
+    "Виправи баг в базі даних Prisma",
+    "Створи Docker compose файл",
+    "Оптимізуй SQL запит",
+    "Напиши unit тест для функції",
+    "Зроби CI/CD pipeline в GitHub Actions",
+    "Створи Telegram бота",
+    "Напиши скрипт для скрапінгу",
+    "Виправи TypeScript помилки в проєкті",
+    "Зроби email template в React Email"
+  ],
+  "assertions": [
+    "Output contains clamp() for font sizes",
+    "Output contains font-kerning: none",
+    "Output contains letter-spacing: -0.058em for headings",
+    "Output contains font-weight: 300 for body",
+    "Output uses max 3 colors",
+    "Output contains IntersectionObserver or scroll animation",
+    "Output contains dark mode support",
+    "Output contains Tailwind CSS",
+    "Output contains responsive clamp() spacing",
+    "Output does NOT contain box-shadow on cards"
+  ]
+}

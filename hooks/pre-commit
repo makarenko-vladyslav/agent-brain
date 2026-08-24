@@ -1,0 +1,14 @@
+#!/bin/bash
+# Індекс знань не має права відстати від файлів.
+# Перегенеровує brain/knowledge/README.md і кладе в цей самий коміт.
+# Якщо у файлі знань немає рядка "> опис" — коміт зупиняється.
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+if ! ./scripts/brain-index.sh; then
+  echo "" >&2
+  echo "Коміт зупинено: знання потрапило б у теку, але не в індекс (причина вище)." >&2
+  exit 1
+fi
+
+git add brain/knowledge/README.md brain/rules/README.md
