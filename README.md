@@ -38,7 +38,7 @@ Codex, Gemini, агент в Antigravity) значно кориснішим: в�
 Потім встав агенту в чат оцей текст і натисни Enter — далі він зробить усе сам:
 
 ```
-Клонуй https://github.com/OWNER/REPO у ~/Projects/SuperBrain
+Клонуй https://github.com/makarenko-vladyslav/agent-brain у ~/Projects/SuperBrain
 Потім:
 1. Прочитай CLAUDE.md у корені — це інструкція, як користуватись цим мозком.
 2. Заповни зі мною brain/profile.md: питай по одному питанню й записуй відповіді.
@@ -46,8 +46,6 @@ Codex, Gemini, агент в Antigravity) значно кориснішим: в�
 4. Перевір, що все ціле: ./scripts/brain-doctor.sh
 5. Поясни мені простими словами, що тепер змінилось і як цим користуватись щодня.
 ```
-
-Заміни `OWNER/REPO` на адресу цього репозиторію.
 
 ## Далі щодня
 
