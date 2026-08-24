@@ -11,6 +11,7 @@
 - [Розвилка = питання, а не здогад](ask-when-more-than-one-way.md)
 - [cmux system-reminders після Edit — НЕ реверс](cmux-edit-not-reverted.md)
 - [Не питати модель про те, що вимірюють інструменти (постійне правило)](dont-ask-the-model-what-instruments-measure.md)
+- [Робота закінчена на живому результаті, не на файлі (постійне правило)](finish-on-live-result.md)
 - [Спершу всі фікси, потім ОДИН тестовий прогін](fix-all-then-one-test-run.md)
 - [Правити КОРІНЬ бага, не наслідки](fix-root-cause-not-symptoms.md)
 - [Максимальна якість без втрат](maximize-quality-no-loss.md)
